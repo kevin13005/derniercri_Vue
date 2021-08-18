@@ -57,7 +57,7 @@ export default {
     margin: auto;
 }
 .articles ul li{
-    margin-bottom: 80px;
+    margin-bottom: 15px;
     display: flex;
     justify-content: center;
 }
