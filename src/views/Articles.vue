@@ -27,7 +27,7 @@ export default {
     methods:{
         async getArticles(){
             try {
-                const articlesDB = await this.axios.get('wp/v2/posts')
+                const articlesDB = await this.axios.get('wp/v2/posts?per_page=20')
 
                 await articlesDB.data.forEach(element => {
                 console.log(element);
